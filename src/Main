@@ -1,4 +1,0 @@
-<?php 
-
-    $data=[ "Bob, bob@xyzzzzzz.com, Rua 12 de Abril, +5500000000000, 40GB",
-    "Alice, alice@xyzzzzzz.com, Rua Brasil, +5500111111111, 10GB"];
