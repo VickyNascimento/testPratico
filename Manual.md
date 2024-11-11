@@ -6,15 +6,14 @@ A Seguir, uma descricao de manuseio e execucao do teste aplicado
 - [Especificações](#Especificações)
 - [Recomendações](#Recomendações)
 
-## Execucao
+## Execução
 
     Para garantir a execução do projeto da maneira que foi testado, teste deve ser rodado em navegador, abrindo o arquivo Index.php, com auxilio de um servidor local.
     O navegador deve exibir uma tela branca unica, com apenas o retorno da execução das funções do projeto, e é possivel analisa-lo na pasta src.
 
-
 ## Especificações 
 
-    **durante a execução, os testes foram feitos nas seguintes especificacoes:
+    **durante a execução, os testes foram feitos nas seguintes especificacoes:**
     
 - versão de PHP: 8.0.30
 - Servidor local: Apache 2.4.58 (WIN64)
@@ -22,7 +21,7 @@ A Seguir, uma descricao de manuseio e execucao do teste aplicado
 
 ## Recomendações
 
-    **Links uteis para a execução do projeto
+    **Links uteis para a execução do projeto**
 
 - XAMPP: https://sourceforge.net/projects/xampp/
 
