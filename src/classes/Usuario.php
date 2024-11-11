@@ -40,8 +40,8 @@ class Usuario{
         return $this->linha;
     }
 
-    //Chamando separadamente o objeto Usuario com sua apresentação
+    //Chamando singularmente o objeto Usuario com sua apresentação e seus atributos
     public function __tostring(){
-        return "O cliente, {$this->getNome()}, com email, {$this->getEmail()}, morador do endereco, {$this->getEndereco()}. <br>";
+        return "O cliente, {$this->getNome()}, com email, {$this->getEmail()}, morador do endereco, {$this->getEndereco()}. <br>"."{$this->linha->__tostring()}";
     }
 }

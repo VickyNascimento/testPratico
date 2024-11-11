@@ -2,7 +2,7 @@
 
 A Seguir, uma descricao de manuseio e execucao do teste aplicado
 
-- [Execucao](#Execucao)
+- [Execucao](#Execução)
 - [Especificações](#Especificações)
 - [Recomendações](#Recomendações)
 
@@ -13,7 +13,7 @@ A Seguir, uma descricao de manuseio e execucao do teste aplicado
 
 ## Especificações 
 
-    **durante a execução, os testes foram feitos nas seguintes especificacoes:**
+    durante a execução, os testes foram feitos nas seguintes especificacoes:
     
 - versão de PHP: 8.0.30
 - Servidor local: Apache 2.4.58 (WIN64)
@@ -21,7 +21,7 @@ A Seguir, uma descricao de manuseio e execucao do teste aplicado
 
 ## Recomendações
 
-    **Links uteis para a execução do projeto**
+    Links uteis para a execução do projeto
 
 - XAMPP: https://sourceforge.net/projects/xampp/
 

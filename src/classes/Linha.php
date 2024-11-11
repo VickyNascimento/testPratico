@@ -20,7 +20,8 @@ class Linha{
         return $this->plano;
     }
 
+    //Chamando singularmente o objeto Linha com sua apresentação
     public function __tostring(){
-        return "dono da linha {$this->getNumero()}, com o plano contratado de {$this->getPlano()}. <br>";
+        return "Dono da linha {$this->getNumero()}, com o plano contratado de {$this->getPlano()}. <br>";
     }
 }
