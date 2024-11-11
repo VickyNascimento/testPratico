@@ -3,8 +3,9 @@
 require_once "Usuario.php";
 require_once "Linha.php";
 
-
 class UsuarioFactory {
+
+    //utilizando uma factory para controlar a criação das instancias de Usuario e Linha
     public static function criarUsuario(string $data){
         list($nome, $email, $endereco, $numero, $plano) = explode(", ", $data);
 
