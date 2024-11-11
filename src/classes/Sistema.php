@@ -1,17 +1,26 @@
 <?php 
 
-require_once "Uuuario.php";
+// chamando o arquivo da classe Usuario
+require_once "Usuario.factory.php";
 
 Class Sistema{
-    private array $usuarios = [];
+    // criamos a instancia nula de sistema para garantir que apenas seja criado uma unica
+    private static ?Sistema $instance = null;
+    private array $usuarios = []; #array para armazenar os usuarios criados
 
+    private function __construct() {}
+
+    public static function CreateSystem(){
+        if(self::$instance===null){
+            self::$instance = new Sistema();
+        }
+        return self::$instance;
+    } 
+
+    // cria os usuarios a partir da variavel dada
     public function addUsuario(string $data){
-        list($nome, $email, $endereco, $numero, $plano) = explode(", ", $data);
-
-        $linha = new Linha($numero, $plano);
-        $suario = new Usuario($nome, $email, $endereco, $linha);
-
-        $this->usuarios[]=$suario;
+        $usuario = UsuarioFactory::criarUsuario($data);
+        $this->usuarios[]= $usuario;
     }
 
     public function exibirUsuarios(){
